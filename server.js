@@ -29,7 +29,7 @@ app.use(flash());
 
 // דוגמה לעמוד ראשי
 app.get('/', (req, res) => {
-  res.send('SchoolHub Lite פועל בהצלחה 🎓');
+  res.render('index');
 });
 
 // הפעלת השרת
